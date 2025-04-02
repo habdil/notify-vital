@@ -1,0 +1,15 @@
+Directory Structure for: e:\Lomba\Find-IT\notify-vital-v2\backend
+Scanned on: 2025-04-02 15:09:59
+==================================================
+
+📁 cmd/
+    📁 api/
+        📄 main.go (1.4 KB)
+📁 config/
+    📄 config.go (1.0 KB)
+📄 .env (133.0 B)
+📄 .gitignore (82.0 B)
+📄 file_structure.py (3.6 KB)
+📄 firebase-credentials.json (2.3 KB)
+📄 go.mod (3.0 KB)
+📄 go.sum (12.8 KB)
