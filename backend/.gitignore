@@ -1,2 +1,5 @@
-./config/firebase-credentials.json
+# Firebase credentials
+firebase-credentials.json
+
+# Environment variables
 .env
