@@ -1,0 +1,10 @@
+<resources>
+
+    <style name="MainActivityTheme.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/dark_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_logo</item>
+        <item name="postSplashScreenTheme">@android:style/Theme.DeviceDefault</item>
+    </style>
+
+    <color name="dark_blue">#2C3E50</color>
+</resources>

@@ -1,0 +1,36 @@
+Directory Structure for: E:\Lomba\Find-IT\notify-vital\frontend
+Scanned on: 2025-04-20 02:51:09
+==================================================
+
+📁 assets/
+    📄 bg_auth.png (315.9 KB)
+    📄 bg_onboarding.png (356.8 KB)
+    📄 ic_logo.png (10.1 KB)
+📁 lib/
+    📁 blocs/
+    📁 models/
+    📁 services/
+    📁 shared/
+        📄 notification.dart (5.8 KB)
+        📄 theme.dart (1.8 KB)
+    📁 ui/
+        📁 pages/
+            📄 auth_page.dart (2.1 KB)
+            📄 onboarding_page.dart (4.3 KB)
+            📄 pairing_page.dart (10.8 KB)
+            📄 splash_page.dart (1.8 KB)
+        📁 widgets/
+            📄 login_widget.dart (6.6 KB)
+            📄 register_widget.dart (9.8 KB)
+    📄 .env (34.0 B)
+    📄 main.dart (358.0 B)
+📄 .flutter-plugins (623.0 B)
+📄 .flutter-plugins-dependencies (1.6 KB)
+📄 .gitignore (734.0 B)
+📄 .metadata (1.7 KB)
+📄 analysis_options.yaml (1.4 KB)
+📄 file_structure.py (3.7 KB)
+📄 frontend.iml (859.0 B)
+📄 pubspec.lock (9.7 KB)
+📄 pubspec.yaml (3.9 KB)
+📄 README.md (567.0 B)
