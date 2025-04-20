@@ -6,6 +6,7 @@ Color backgroundColor = const Color(0xff2C3E50);
 Color whiteColor = const Color(0xffFFFFFF);
 Color greenColor = const Color(0xff27AE60);
 Color greyColor = const Color(0xffD9D9D9);
+Color orangeColor = const Color(0xffF39C12);
 
 // Text styles with Fredoka font
 TextStyle whiteTextStyle = GoogleFonts.fredoka(

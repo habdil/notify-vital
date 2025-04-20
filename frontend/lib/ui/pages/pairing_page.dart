@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../shared/theme.dart';
 import '../../shared/notification.dart';
+import 'dashboard_page.dart';
 
 class PairingPage extends StatefulWidget {
   const PairingPage({super.key});
@@ -18,18 +19,6 @@ class _PairingPageState extends State<PairingPage> {
     super.initState();
     // Pre-populate with some sample devices for UI demonstration
     _devicesList = [
-      {
-        'name': 'Vital Watch SE',
-        'address': 'A4:C1:38:8D:12:E5',
-        'rssi': -65,
-        'connected': false,
-      },
-      {
-        'name': 'HeartGuard Pro',
-        'address': 'B8:27:EB:F3:1A:C2',
-        'rssi': -72,
-        'connected': false,
-      },
     ];
   }
 
@@ -47,7 +36,7 @@ class _PairingPageState extends State<PairingPage> {
           
           // Add a new "discovered" device
           _devicesList.add({
-            'name': 'CardioSense GT',
+            'name': 'VitalSense',
             'address': 'C2:4A:7B:9D:5E:F1',
             'rssi': -58,
             'connected': false,
@@ -74,6 +63,18 @@ class _PairingPageState extends State<PairingPage> {
       context,
       'Successfully paired with ${_devicesList[index]['name']}',
     );
+    
+    // Navigate to dashboard after a short delay to allow notification to be seen
+    Future.delayed(const Duration(milliseconds: 1500), () {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => DashboardPage(
+            connectedDevice: _devicesList[index],
+          ),
+        ),
+      );
+    });
   }
 
   // Get signal strength icon based on RSSI value
